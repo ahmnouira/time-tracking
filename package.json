@@ -1,0 +1,39 @@
+{
+  "name": "time-tracking",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": {
+    "email": "ahmnouira@gmail.com",
+    "name": "Ahmed Nouira"
+  },
+  "readme": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "React Native",
+    "Time Tracking App",
+    "React"
+  ],
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "~36.0.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-web": "~0.11.7"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~8.0.0",
+    "@babel/core": "^7.0.0"
+  }
+}
