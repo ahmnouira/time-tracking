@@ -8,14 +8,12 @@ import TimerForm from '../TimerForm';
 import styles from './styles';
 
 // accepts a single prop isOpen, from its parent that instructs its behavior
-export default function ToggleableTimerForm({ isOpen }) {
+const ToggleableTimerForm = ({ isOpen }) =>
 
-    return (
+    <View
+        style={[styles.conatiner, !isOpen && styles.buttonPadding]}>
+        {isOpen ? <TimerForm /> : <TimerButton title="+" color="black" />}
+    </View>
 
-        <View
-            style={[styles.conatiner, !isOpen && styles.buttonPadding]}>
-            {isOpen ? <TimerForm /> : <TimerButton title="+" color="black" />}
-        </View>
-    );
-}
+export default ToggleableTimerForm;
 

@@ -1,18 +1,17 @@
 # :clock7: time-tracking
 
 > In this app, a user can add, delete and modify various timers.<br />
-Each timer corresponds to a different task that the user would like to keep time for
+Each timer corresponds to a different task that the user would like to keep time for.
 
 ## :flashlight: Screenshot 
 
-
 <p align="center">
-    <img src="img/app.png" alt="app" width="80%" height="80%">
+    <img src="img/app.png" alt="app" width="60%" height="60%">
 </p>
 
 ## :computer: Run as a web application   
 
-Open your terminal/cmd and run the following commadans: 
+Open your terminal/cmd and run the following commandes: 
 
 1. type `git clone https://github.com/ahmnouira/time-tracking`.
 2. `cd time-tracking` to enter to app folder.

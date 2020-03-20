@@ -11,6 +11,7 @@ export default function EdittableTimer({
     if (editFormOpen) {
         return (<TimerFrom id={id} title={title} project={project} />);
     }
+    
     return (
         <Timer id={id} title={title} project={project} elapsed={elapsed} isRunnig={isRunnig} />
     );
